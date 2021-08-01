@@ -66,3 +66,38 @@
     color: #00ccff;
     font-size: 36px;
   }
+
+  #bola {
+
+    width: 10px;
+    height: 10px;
+    background-color: rgb(147, 219, 252);
+    border: black 2px solid;
+    border-radius : 10px;
+    position: relative;
+  }
+  
+#hora {
+  font-family: Helvetica;
+  font-size: 20px;
+  text-align: center;
+  display:block;
+  margin: 0 auto;
+  background-color: rgb(198, 251, 253);
+  border: #CCCCCC 1px solid;
+   color: #252525;
+}
+  @media screen and (max-width: 768px) {
+    #container {
+      margin: 20px auto;
+      width: 95%;
+       } }
+  
+  @media screen and (max-width: 480px) {
+    h1 {
+      font-size: 26px; } }
+  
+  @media screen and (max-width: 420px) {
+    h1 {
+      font-size: 18px; } }
+  

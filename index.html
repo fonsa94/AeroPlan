@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/archivo.css">
     <link rel="stylesheet" href="css/archivo2.css">
     <link rel="stylesheet" href="css/archivo3.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="AeroPlan">
     <meta name="keywords"  content="vuelos,viajes,travel,oseo,vacaciones">
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet"> 
@@ -14,11 +15,11 @@
     <title>AeroPlan</title>
 </head>
 <body>
-
+  
   <header>
   <div class="container-fluid" id="nav-1">
     <div class="row">
-        <nav  class="navbar navbar-expand-md navbar-white fixed-top bg-white">
+        <nav  class="navbar navbar-expand-md navbar-black fixed-top bg-white">
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
                 aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -53,7 +54,8 @@
   
                             <li href="#" id="vaciar-carrito" class="btn btn-primary btn-block">Vaciar Carrito</li>
                             <li href="#" id="procesar-pedido" class="btn btn-danger btn-block">Procesar Compra</li>
-                        </div>                   
+                        </div>  
+                                         
                     </li>
                 </ul>
               </ul>
@@ -218,8 +220,10 @@
          </div>
      </div>
  </section>
+    
+<span id="hora"></span> 
 
-<hr>     
+
 <link href="https://fonts.googleapis.com/css?family=Coda|Open+Sans" rel="stylesheet">
 
 <div id="date-picker-section" class="container">
@@ -241,7 +245,8 @@
     </div>
     
     <p> Deléitate con lo grandes que son las fechas ahora. </p>
-    
+  
+
     <div id="date-picker-display-container">
       <div class="date-picker-display-pair">
         <div class="date-picker-display">
@@ -285,6 +290,7 @@
   </div>  
 </div>
 <hr>
+
 <br>
 
 <a name="promociones"></a>
@@ -484,15 +490,10 @@
 </div>
 <hr>
 
-
-
-
-
-
-
-
+<div id="bola"></div>
 <button type="button" class="btn btn-dark" onclick="cambiarModo()">Oscuro / Claro</button>
 
+<br><br>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
@@ -511,7 +512,7 @@
     <script src="js/sweetalert2.min.js"></script>
     <script src="js/pedido.js"></script>
     <script src="js/ajax.js"></script>
-
+    <script src="js/animaciones.js"></script>
     <script type="text/javascript"> 
       function cambiarModo() { 
         var cuerpoweb = document.body; 
