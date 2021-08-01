@@ -6,12 +6,12 @@ let postIndex = 0;
 let currentPost = posts[postIndex];
 let currentMainPost = mainPosts[postIndex];
 
-let progressInterval = setInterval(progress, 100); // 180
+let progressInterval = setInterval(progress, 100); 
 
 function progress() {
   if (i === 100) {
     i = -5;
-    // reset progress bar
+
     currentPost.querySelector(".progress-bar__fill").style.width = 0;
     document.querySelector(
       ".progress-bar--primary .progress-bar__fill"
@@ -23,7 +23,7 @@ function progress() {
     currentMainPost.classList.add("main-post--not-active");
     currentMainPost.classList.remove("main-post--active");
 
-    // reset postIndex to loop over the slides again
+    
     if (postIndex === posts.length) {
       postIndex = 0;
     }

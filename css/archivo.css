@@ -9,7 +9,7 @@
   display: flex;
   list-style: none;
   box-shadow: 20px 40px 40px #ffffff33;
-  padding: 6px; }
+  padding: 0px; }
   #nav-1 li {
     margin: 0px; }
     #nav-1 li a {
@@ -216,7 +216,7 @@ h2 {
   height: 60px;
   border: 1px solid #ddd;
   border-radius: 3px;
-  margin: 1px;
+  margin: 0px;
   display: inline-block;
   overflow: hidden;
   -o-object-fit: cover;
@@ -591,7 +591,7 @@ body {
   justify-content: space-around; }
 
 .date-picker-display-pair {
-  margin: 10px; }
+  : 10px; }
 
 .date-picker-display {
   font-family: "Coda", serif;
@@ -653,7 +653,7 @@ body {
   right: 5px; }
 
 #date-picker-month {
-  margin: 0 20px; }
+  margin: 0 0px; }
 
 #date-picker-exit {
   position: absolute;

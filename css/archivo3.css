@@ -1,12 +1,12 @@
 
 .rating {
-    margin-left: 37%
+    margin: left 0;
 }
 
 .page {
     background-color: #dfe6e0;
-    padding: 2%;
-    margin: auto
+    padding: 0%;
+   
 }
 
 .fa {
@@ -20,14 +20,14 @@
 
 .view {
     background-color: #dfe6e0;
-    padding: 10px;
-    margin: 20px
+    padding: 0px;
+    margin: 0px
 }
 
 .card {
     width: 95%;
     padding: 0px;
-    margin-left: 2%
+    margin-left: 0%
 }
 
 .card-footer {
@@ -56,6 +56,12 @@
   }
   
   h1 {
+    font-family: 'Amatic SC', cursive;
+    color: #00ccff;
+    font-size: 36px;
+  }
+
+  #alfa {
     font-family: 'Amatic SC', cursive;
     color: #00ccff;
     font-size: 36px;

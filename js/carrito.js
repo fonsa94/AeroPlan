@@ -1,9 +1,9 @@
 class Carrito {
 
-    //Añadir producto al carrito
+    //producto al carrito
     comprarProducto(e){
         e.preventDefault();
-        //Delegado para agregar al carrito
+        //agregar al carrito
         if(e.target.classList.contains('agregar-carrito')){
             const producto = e.target.parentElement.parentElement;
             //Enviamos el producto seleccionado para tomar sus datos
@@ -206,7 +206,7 @@ class Carrito {
             
         }
         
-        igv = parseFloat(total * 0.18).toFixed(2);
+        igv = parseFloat(total * 0.20).toFixed(2);
         subtotal = parseFloat(total-igv).toFixed(2);
 
         document.getElementById('subtotal').innerHTML = "S/. " + subtotal;
